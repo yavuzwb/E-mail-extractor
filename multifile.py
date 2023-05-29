@@ -1,7 +1,7 @@
 import os
 import re
 
-folder_path = "/Users/yavuzwb/Downloads/12/11"
+folder_path = "folder path"
 email_regex = r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}'
 
 for filename in os.listdir(folder_path):
